@@ -5,6 +5,7 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
+
 // Splash Screen
 
 const splashScreen = {
@@ -44,7 +45,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "Who am I?",
   subTitle: "A creative problem solver with a passion for designing, planning, and developing innovative solutions. I mostly enjoy working on the front-end, but I am always open to learning new things.",
   skills: [
     emoji(
@@ -53,6 +54,15 @@ const skillsSection = {
     emoji("⚡ Very detail-oriented and organized. I love to plan and design to create the best user experience"),
     emoji(
       "⚡ Enjoy client to client interaction and working in a team environment. I am a great communicator and love to collaborate with others."
+    ),
+    emoji(
+      "🌟 I love to meet new people, organize hangouts, play sports and do other physical activities! (Golf, Ski, Volleyball, Boardball, Camping, Backpacking and Body Building)."
+    ),
+    emoji(
+      "🌟 I am a big dog person! I have two Australian Labradoodles, Dooly and Lulu."
+    ),
+    emoji(
+      "🌟 I am a very outgoing, creative, energetic and active person. I love to brighten up the room, share my honest opinions and make sure everyone is comfortable."
     )
   ],
 
@@ -153,7 +163,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -301,22 +311,76 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Blogs and Vlogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I love to visualize and show others what I have learnt and experienced. Videos were created and edited using Adobe Premiere Pro.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://sway.office.com/cUCSN8ErMVeOv633?ref=Link",
+      title: "ENMAX | Digital Experience",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A presentation of my work and projects at ENMAX using Microsoft Sway."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://youtu.be/LvfFysu9W48?si=VBKu2XRzjXart8rb",
+      title: "ENMAX | Summer Student Program",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "A video I got to participate in for ENMAX's Summer Student Program."
+    },
+    {
+      url: "https://youtu.be/Cn85cjVAF7o?si=kvVfb_rI2LxibOQR",
+      title: "End of Summer 2023",
+      description:
+        "One last video before the end of my Summer 2023. This video was reuploaded and featured in @boardballsport on Instagram."
+    },
+    {
+      url: "https://youtu.be/XEXQuQ4VqTc?si=bCZIPUQVhyy4j9ib",
+      title: "Summer 2023",
+      description:
+        "A video recap of what my Summer (2023). Stampede, Soccer, Boardball, Volleyball, Golf and Working. Cool fact, I got to to meet Arizona Zervas!"
+    },
+    {
+      url: "https://youtu.be/T4aVaJ2iOz8?si=tuJ1MFeJRNeNYEAJ",
+      title: "Seoul 2023",
+      description:
+        "A video recap of my time first time in Seoul (2023). I got a week off work and joined my parents in their last week of vacation."
+    },
+    {
+      url: "https://youtu.be/HowRW6dEJ_g?si=a1JZjVnccm-V9cmV",
+      title: "Winter 2022",
+      description:
+        "A video recap of how I spend my time in the Winter (2022). Mostly skiing, skating and playing volleyball"
+    },
+    {
+      url: "https://youtu.be/eHbgq8gipbk?si=49MRnAxloD8TVERO",
+      title: "New Year: 2022 Recap",
+      description:
+        "A video recap of my 2022 and the four seasons."
+    },
+    {
+      url: "https://youtu.be/6uVYl-Gg8tM?si=6jZmgjsIG6mhNEkR",
+      title: "Healy Pass - Sunrise Hike",
+      description:
+        "A video recap of a sunrise hike I did with my friends at Healy Pass. We started at 1:00AM to get to Lake Moraine, but it was full, so we went to Healy Pass instead."
+    },
+    {
+      url: "https://youtu.be/MuAWn4t3oYQ?si=3GyU1q9sziG8qYqk",
+      title: "Vegas 2022",
+      description:
+        "A video recap of my first time in Vegas. I went with my friends for a week and we had a blast."
+    },
+    {
+      url: "https://youtu.be/rs8wx0H8EpM?si=t3SfCCrhQHXNb3nY",
+      title: "Fall 2022: Wholesome Fall Moments",
+      description:
+        "A video recap of my Fall (2022). A lot of time spent with friends, family, and my doggos."
+    },
+    {
+      url: "https://youtu.be/a1W3MWwPfa4?si=oKN3MGhJVjpvk9Nj",
+      title: "Summer 2022: Touching Grass",
+      description:
+        "A video recap of my Summer 2022."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -338,7 +402,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -351,22 +415,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Do you want to further discuss about my portfolio? My Inbox is open for all.",
+  number: "403-998-5029",
+  email_address: "jinkilee552@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
