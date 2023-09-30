@@ -141,6 +141,12 @@ const educationInfo = {
       descBullets: ["Jason Lang Scholarship — (September 2020 - February 2021)",
       "Alexander Rutherford Scholarship — (September 2017)"
     ]
+    },
+    {
+      schoolName: "Haskayne School of Business",
+      logo: require("./assets/images/haskayne.webp"),
+      subHeader: "Minor in Business Management and Society",
+      duration: "September 2017 - April 2022"
     }
   ]
 };
