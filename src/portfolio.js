@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Jinki Lee",
+  title: "Hi all, I'm Jinki",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Business graduate and software developer dedicated to innovating creative solutions, transforming digital landscapes through innovative web and mobile applications."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: require("./assets/Jinki_Lee_Resume_2024.pdf"),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/jinkilee/",
+  github: "https://github.com/jinki-lee",
+  instagram: "https://www.instagram.com/jinki.jpeg/",
+  gmail: "jinkilee552@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A creative problem solver with a passion for designing, planning, and developing innovative solutions. I mostly enjoy working on the front-end, but I am always open to learning new things.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Highly motivated and passionate about learning new technologies. I always look for ways to integrate and share new technologies with others."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Very detail-oriented and organized. I love to plan and design to create the best user experience"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Enjoy client to client interaction and working in a team environment. I am a great communicator and love to collaborate with others."
     )
   ],
 
@@ -71,6 +67,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "C#",
+      fontAwesomeClassname: "fa-solid fa-hashtag"
     },
     {
       skillName: "sass",
@@ -89,10 +89,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -101,21 +97,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +111,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Southern Alberta Institute of Technology",
+      logo: require("./assets/images/sait.png"),
+      subHeader: "Diploma in Information Technology - Software Development",
+      duration: "May 2022 - April 2024*",
+      desc: "GPA: 3.80 / 4.00",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Completed 8-month Co-Op Work Term — (January - August 2023)",
+        "One of three candidates to receive the Alberta Advanced Education and Technology Award for displaying academic excellence and leadership — (August 2022)",
+        "Jason Lang Scholarship — (Feb 2023)"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Calgary",
+      logo: require("./assets/images/ucalgary.jpg"),
+      subHeader: "Bachelor of Arts in Economics",
+      duration: "September 2017 - April 2022",
+      desc: "GPA: 3.32 / 4.00",
+      descBullets: ["Jason Lang Scholarship — (September 2020 - February 2021)",
+      "Alexander Rutherford Scholarship — (September 2017)"
+    ]
     }
   ]
 };
@@ -150,7 +138,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +162,44 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Digital Experience",
+      company: "ENMAX Corporation",
+      companylogo: require("./assets/images/ENX_Logo_RED.png"),
+      date: "January 2023 – August 2023",
+      desc: "Co-Op Student",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "⭐Pioneered ENMAX's co-op program, infusing youthful energy and cutting-edge practices",
+        "📝 Documented enmax.com 2023 updates in release notes and utilized Microsoft Sway to create captivating releases",
+        "🎟️ Managed Service Now daily to track tickets and requests, and delegated tasks to appropriate Microsoft Azure DevOps board team members for timely resolution",
+        "💭 Proposed and executed novel UX/UI enhancements on enmax.com and enmax.next",
+        "💭 Proposed import/export tool for Azure DevOps and integrated generative AI tools for efficient software development"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Capstone Project Developer",
+      company: "ENMAX Corporation",
+      companylogo: require("./assets/images/ENX_Logo_RED.png"),
+      date: "September 2023 – Present",
+      desc: "Team Lead",
+      descBullets: [
+        "⭐ Spearheading the concept of collaborating and partnering ENMAX with post-secondary schools to explore capstone project opportunities, becoming the trailblazer in delivering innovative projects, and setting a precedent for successful cooperation",
+        "📝 Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, user testing, Figma wireframes and mood boards to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
+        "💭 Promoted organizational change management and introducing new KPIs to increase employee engagement and recognition",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Business Analyst",
+      company: "QP",
+      companylogo: require("./assets/images/qp.png"),
+      date: "May 2017 – Present",
+      desc: "Family Owned Business",
+      descBullets: ["📖 Gained insights into business operations and processes within a family-owned company, initially starting as a front counter associate",
+      "📜 Demonstrated and applied workplace safety, subsequently achieving certification to operate boilers in compliance with Alberta Power Engineers Regulation",
+      "📝 Acquired exposure to financial accounting, inventory management, decision-making, and tax planning and compliance for small businesses",
+      "🎨 Designed and deployed a company website using React.js",
+      "📊 Leveraged Excel workbooks with macros for automating and visualizing budget data, expenses, sales figures, and employee timesheets",
+      "💻 Integrated various applications, technologies, and services to enhance digital experience"  
+    ]
     }
   ]
 };
@@ -213,29 +216,43 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some of the projects and companies I have contributed to",
   projects: [
+    
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ENX_Logo_RED2.png"),
+      projectName: "IT Recognition Portal",
+      projectDesc: "Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, analysis, and testing, to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Video Demo - Coming Soon",
+          url: ""
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ENX_Logo_RED2.png"),
+      projectName: "Telecom Choice Page",
+      projectDesc: "Gathered business and UX requirements from the client and stakeholders, created a Figma wireframe and prototype, and developed a new Telecom Choice page for enmax.com",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.enmax.com/generation-wires/transmission-and-distribution/telecom-choice"
         }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/qp2.png"),
+      projectName: "Company Website and Application Support",
+      projectDesc: "Designed and deployed a company website using React.js. Integrated various applications, technologies, and services to enhance digital experience",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.qpcleaners.ca/"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
@@ -252,50 +269,28 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AZ 900",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Microsoft Azure Fundamentals",
+      image: require("./assets/images/az900.png"),
+      imageAlt: "AZ 900",
+      footerLink: [
+        {
+          name: "Scheduled to write in Dec 2023",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Power Engineer - Special Boiler Operator",
+      subtitle:
+        "Credential ID: A-92066",
+      image: require("./assets/images/absa.png"),
+      imageAlt: "Power Engineer - Special Boiler Operator",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://www.absa.ca/directories/alberta-certi%EF%AC%81ed-power-engineers-directory/"
         }
       ]
     }
@@ -374,7 +369,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
