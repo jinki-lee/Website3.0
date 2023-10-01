@@ -22,7 +22,7 @@ const illustration = {
 
 const greeting = {
   username: "Jinki Lee",
-  title: "Hi all, I'm Jinki",
+  title: "Hi, I'm Jinki",
   subTitle: emoji(
     "Business graduate and software developer dedicated to innovating creative solutions, transforming digital landscapes through innovative web and mobile applications."
   ),
