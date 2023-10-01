@@ -5,7 +5,6 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
-
 // Splash Screen
 
 const splashScreen = {
@@ -46,12 +45,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Who am I?",
-  subTitle: "A creative problem solver with a passion for designing, planning, and developing innovative solutions. I mostly enjoy working on the front-end, but I am always open to learning new things.",
+  subTitle:
+    "A creative problem solver with a passion for designing, planning, and developing innovative solutions. I mostly enjoy working on the front-end, but I am always open to learning new things.",
   skills: [
     emoji(
       "⚡ Highly motivated and passionate about learning new technologies. I always look for ways to integrate and share new technologies with others."
     ),
-    emoji("⚡ Very detail-oriented and organized. I love to plan and design to create the best user experience"),
+    emoji(
+      "⚡ Very detail-oriented and organized. I love to plan and design to create the best user experience"
+    ),
     emoji(
       "⚡ Enjoy client to client interaction and working in a team environment. I am a great communicator and love to collaborate with others."
     ),
@@ -110,7 +112,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Azure",
       fontAwesomeClassname: "fab fa-microsoft"
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -139,17 +140,17 @@ const educationInfo = {
       subHeader: "Bachelor of Arts in Economics",
       duration: "September 2017 - April 2022",
       desc: "GPA: 3.32 / 4.00",
-      descBullets: ["Jason Lang Scholarship — (September 2020 - February 2021)",
-      "Alexander Rutherford Scholarship — (September 2017)"
-    ]
+      descBullets: [
+        "Jason Lang Scholarship — (September 2020 - February 2021)",
+        "Alexander Rutherford Scholarship — (September 2017)"
+      ]
     },
     {
       schoolName: "Haskayne School of Business",
       logo: require("./assets/images/haskayne.webp"),
       subHeader: "Minor in Business Management and Society",
       duration: "September 2017 - April 2022",
-      descBullets: ["Jason Lang Scholarship — (September 2020 - February 2021)"
-    ]
+      descBullets: ["Jason Lang Scholarship — (September 2020 - February 2021)"]
     }
   ]
 };
@@ -213,7 +214,7 @@ const workExperiences = {
       descBullets: [
         "⭐ Spearheading the concept of collaborating and partnering ENMAX with post-secondary schools to explore capstone project opportunities, becoming the trailblazer in delivering innovative projects, and setting a precedent for successful cooperation",
         "📝 Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, user testing, Figma wireframes and mood boards to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
-        "💭 Promoted organizational change management and introducing new KPIs to increase employee engagement and recognition",
+        "💭 Promoted organizational change management and introducing new KPIs to increase employee engagement and recognition"
       ]
     },
     {
@@ -222,13 +223,14 @@ const workExperiences = {
       companylogo: require("./assets/images/qp.png"),
       date: "May 2017 – Present",
       desc: "Family Owned Business",
-      descBullets: ["📖 Gained insights into business operations and processes within a family-owned company, initially starting as a front counter associate",
-      "📜 Demonstrated and applied workplace safety, subsequently achieving certification to operate boilers in compliance with Alberta Power Engineers Regulation",
-      "📝 Acquired exposure to financial accounting, inventory management, decision-making, and tax planning and compliance for small businesses",
-      "🎨 Designed and deployed a company website using React.js",
-      "📊 Leveraged Excel workbooks with macros for automating and visualizing budget data, expenses, sales figures, and employee timesheets",
-      "💻 Integrated various applications, technologies, and services to enhance digital experience"  
-    ]
+      descBullets: [
+        "📖 Gained insights into business operations and processes within a family-owned company, initially starting as a front counter associate",
+        "📜 Demonstrated and applied workplace safety, subsequently achieving certification to operate boilers in compliance with Alberta Power Engineers Regulation",
+        "📝 Acquired exposure to financial accounting, inventory management, decision-making, and tax planning and compliance for small businesses",
+        "🎨 Designed and deployed a company website using React.js",
+        "📊 Leveraged Excel workbooks with macros for automating and visualizing budget data, expenses, sales figures, and employee timesheets",
+        "💻 Integrated various applications, technologies, and services to enhance digital experience"
+      ]
     }
   ]
 };
@@ -247,11 +249,11 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "Some of the projects and companies I have contributed to",
   projects: [
-    
     {
       image: require("./assets/images/ENX_Logo_RED2.png"),
       projectName: "IT Recognition Portal",
-      projectDesc: "Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, analysis, and testing, to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
+      projectDesc:
+        "Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, analysis, and testing, to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
       footerLink: [
         {
           name: "Video Demo - Coming Soon",
@@ -263,7 +265,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ENX_Logo_RED2.png"),
       projectName: "Telecom Choice Page",
-      projectDesc: "Gathered business and UX requirements from the client and stakeholders, created a Figma wireframe and prototype, and developed a new Telecom Choice page for enmax.com",
+      projectDesc:
+        "Gathered business and UX requirements from the client and stakeholders, created a Figma wireframe and prototype, and developed a new Telecom Choice page for enmax.com",
       footerLink: [
         {
           name: "Visit Website",
@@ -275,7 +278,8 @@ const bigProjects = {
     {
       image: require("./assets/images/qp2.png"),
       projectName: "Company Website and Application Support",
-      projectDesc: "Designed and deployed a company website using React.js. Integrated various applications, technologies, and services to enhance digital experience",
+      projectDesc:
+        "Designed and deployed a company website using React.js. Integrated various applications, technologies, and services to enhance digital experience",
       footerLink: [
         {
           name: "Visit Website",
@@ -299,8 +303,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "AZ 900",
-      subtitle:
-        "Microsoft Azure Fundamentals",
+      subtitle: "Microsoft Azure Fundamentals",
       image: require("./assets/images/az900.png"),
       imageAlt: "AZ 900",
       footerLink: [
@@ -312,8 +315,7 @@ const achievementSection = {
     },
     {
       title: "Power Engineer - Special Boiler Operator",
-      subtitle:
-        "Credential ID: A-92066",
+      subtitle: "Credential ID: A-92066",
       image: require("./assets/images/absa.png"),
       imageAlt: "Power Engineer - Special Boiler Operator",
       footerLink: [
@@ -374,8 +376,7 @@ const blogSection = {
     {
       url: "https://youtu.be/eHbgq8gipbk?si=49MRnAxloD8TVERO",
       title: "New Year: 2022 Recap",
-      description:
-        "A video recap of my 2022 and the four seasons."
+      description: "A video recap of my 2022 and the four seasons."
     },
     {
       url: "https://youtu.be/6uVYl-Gg8tM?si=6jZmgjsIG6mhNEkR",
@@ -398,8 +399,7 @@ const blogSection = {
     {
       url: "https://youtu.be/a1W3MWwPfa4?si=oKN3MGhJVjpvk9Nj",
       title: "Summer 2022: Touching Grass",
-      description:
-        "A video recap of my Summer 2022."
+      description: "A video recap of my Summer 2022."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -419,7 +419,7 @@ const talkSection = {
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
-    },
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };

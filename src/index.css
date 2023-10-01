@@ -2,11 +2,11 @@
   font-family: "Inconsolata";
   font-style: normal;
   font-weight: normal;
-  src: local("Inconsolata"), 
-       url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap") format("woff");
+  src: local("Inconsolata"),
+    url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap")
+      format("woff");
   font-display: swap;
 }
-
 
 @font-face {
   font-family: "Montserrat";
