@@ -54,15 +54,15 @@ const Main = () => {
             <Greeting />
             <Skills />
             <Education />
-            <StackProgress />
             <WorkExperience />
             <Projects />
             <StartupProject />
-            <Achievement />
             <Blogs />
+            <Achievement />
             <Talks />
             <Twitter />
             <Podcast />
+            <StackProgress />
             <Profile />
             <Footer />
             <ScrollToTopButton />

@@ -129,7 +129,8 @@ const educationInfo = {
       descBullets: [
         "Completed 8-month Co-Op Work Term — (January - August 2023)",
         "One of three candidates to receive the Alberta Advanced Education and Technology Award for displaying academic excellence and leadership — (August 2022)",
-        "Jason Lang Scholarship — (Feb 2023)"
+        "Scholarship: Jason Lang Scholarship — (Feb 2023)",
+        "Volunteer: Peer Mentor Team Lead  — (July 2023 - Present)"
       ]
     },
     {
@@ -146,7 +147,9 @@ const educationInfo = {
       schoolName: "Haskayne School of Business",
       logo: require("./assets/images/haskayne.webp"),
       subHeader: "Minor in Business Management and Society",
-      duration: "September 2017 - April 2022"
+      duration: "September 2017 - April 2022",
+      descBullets: ["Jason Lang Scholarship — (September 2020 - February 2021)"
+    ]
     }
   ]
 };
@@ -154,21 +157,31 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Extraverted 70%", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Intuitive 58%",
+      progressPercentage: "58%"
     },
     {
-      Stack: "Programming",
+      Stack: "Feeling 60%",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Judging 92%",
+      progressPercentage: "92%"
+    },
+    {
+      Stack: "Turbulent 60%",
       progressPercentage: "60%"
     }
   ],
+
+  //www.16personalities.com/static/animations/avatars/defaults/protagonist.json
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
@@ -180,7 +193,7 @@ const workExperiences = {
     {
       role: "Digital Experience",
       company: "ENMAX Corporation",
-      companylogo: require("./assets/images/ENX_Logo_RED.png"),
+      companylogo: require("./assets/images/ENMAX.jfif"),
       date: "January 2023 – August 2023",
       desc: "Co-Op Student",
       descBullets: [
@@ -194,7 +207,7 @@ const workExperiences = {
     {
       role: "Capstone Project Developer",
       company: "ENMAX Corporation",
-      companylogo: require("./assets/images/ENX_Logo_RED.png"),
+      companylogo: require("./assets/images/ENMAX.jfif"),
       date: "September 2023 – Present",
       desc: "Team Lead",
       descBullets: [
@@ -406,7 +419,7 @@ const talkSection = {
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+    },
   ],
   display: false // Set false to hide this section, defaults to true
 };
