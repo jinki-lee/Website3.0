@@ -341,65 +341,67 @@ const blogSection = {
       url: "https://sway.office.com/cUCSN8ErMVeOv633?ref=Link",
       title: "ENMAX | Digital Experience",
       description:
-        "A presentation of my work and projects at ENMAX using Microsoft Sway."
+        "Explore my endeavors and projects during my time at ENMAX, creatively presented using Microsoft Sway."
     },
     {
       url: "https://youtu.be/LvfFysu9W48?si=VBKu2XRzjXart8rb",
       title: "ENMAX | Summer Student Program",
       description:
-        "A video I got to participate in for ENMAX's Summer Student Program."
+        "Immerse yourself in a video capturing my involvement in the exciting activities of ENMAX's Summer Student Program."
     },
     {
       url: "https://youtu.be/Cn85cjVAF7o?si=kvVfb_rI2LxibOQR",
       title: "End of Summer 2023",
       description:
-        "One last video before the end of my Summer 2023. This video was reuploaded and featured in @boardballsport on Instagram."
+        "Watch the final video documenting my Summer 2023, a memorable journey reuploaded and showcased on @boardballsport's Instagram."
     },
     {
       url: "https://youtu.be/XEXQuQ4VqTc?si=bCZIPUQVhyy4j9ib",
       title: "Summer 2023",
       description:
-        "A video recap of what my Summer (2023). Stampede, Soccer, Boardball, Volleyball, Golf and Working. Cool fact, I got to to meet Arizona Zervas!"
+        "Experience the diverse highlights of my Summer 2023, from Stampede and sports to meeting Arizona Zervas. Join the adventure!"
     },
     {
       url: "https://youtu.be/T4aVaJ2iOz8?si=tuJ1MFeJRNeNYEAJ",
       title: "Seoul 2023",
       description:
-        "A video recap of my time first time in Seoul (2023). I got a week off work and joined my parents in their last week of vacation."
+        "Relive my inaugural visit to Seoul in 2023 as I took a break from work to join my parents during the concluding week of their vacation."
     },
     {
       url: "https://youtu.be/HowRW6dEJ_g?si=a1JZjVnccm-V9cmV",
       title: "Winter 2022",
       description:
-        "A video recap of how I spend my time in the Winter (2022). Mostly skiing, skating and playing volleyball"
+        "Embark on a journey through my winter activities in 2022, filled with skiing, skating, and spirited volleyball matches."
     },
     {
       url: "https://youtu.be/eHbgq8gipbk?si=49MRnAxloD8TVERO",
       title: "New Year: 2022 Recap",
-      description: "A video recap of my 2022 and the four seasons."
+      description:
+        "A comprehensive video recap encapsulating the essence of my 2022, featuring the varied experiences across all four seasons."
     },
     {
       url: "https://youtu.be/6uVYl-Gg8tM?si=6jZmgjsIG6mhNEkR",
       title: "Healy Pass - Sunrise Hike",
       description:
-        "A video recap of a sunrise hike I did with my friends at Healy Pass. We started at 1:00AM to get to Lake Moraine, but it was full, so we went to Healy Pass instead."
+        "Join me and my friends on a breathtaking sunrise hike to Healy Pass. Our original destination was Lake Moraine, but the adventure took a delightful turn."
     },
     {
       url: "https://youtu.be/MuAWn4t3oYQ?si=3GyU1q9sziG8qYqk",
       title: "Vegas 2022",
       description:
-        "A video recap of my first time in Vegas. I went with my friends for a week and we had a blast."
+        "Dive into the excitement of my first visit to Las Vegas. A week filled with adventure, laughter, and unforgettable moments with friends."
     },
     {
       url: "https://youtu.be/rs8wx0H8EpM?si=t3SfCCrhQHXNb3nY",
       title: "Fall 2022: Wholesome Fall Moments",
       description:
-        "A video recap of my Fall (2022). A lot of time spent with friends, family, and my doggos."
+        "Celebrate the beauty of Fall 2022 with a video recap showcasing precious moments spent with friends, family, and, of course, my beloved doggos."
     },
     {
       url: "https://youtu.be/a1W3MWwPfa4?si=oKN3MGhJVjpvk9Nj",
       title: "Summer 2022: Touching Grass",
-      description: "A video recap of my Summer 2022."
+      description:
+        "Experience the highlights of my Summer 2022 through a vibrant and engaging video recap of the season's adventures and memorable moments."
     }
   ],
   display: true // Set false to hide this section, defaults to true
