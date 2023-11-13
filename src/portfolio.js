@@ -129,8 +129,6 @@ const educationInfo = {
       desc: "GPA: 3.80 / 4.00",
       descBullets: [
         "Completed 8-month Co-Op Work Term — (January - August 2023)",
-        "One of three candidates to receive the Alberta Advanced Education and Technology Award for displaying academic excellence and leadership — (August 2022)",
-        "Scholarship: Jason Lang Scholarship — (Feb 2023)",
         "Volunteer: Peer Mentor Team Lead  — (July 2023 - Present)"
       ]
     },
@@ -141,8 +139,7 @@ const educationInfo = {
       duration: "September 2017 - April 2022",
       desc: "GPA: 3.32 / 4.00",
       descBullets: [
-        "Jason Lang Scholarship — (September 2020 - February 2021)",
-        "Alexander Rutherford Scholarship — (September 2017)"
+        "Volunteer: Society of Undergraduates in Economics Event Coordinator — (September 2017 - 2022)"
       ]
     },
     {
@@ -150,7 +147,8 @@ const educationInfo = {
       logo: require("./assets/images/haskayne.webp"),
       subHeader: "Minor in Business Management and Society",
       duration: "September 2017 - April 2022",
-      descBullets: ["Jason Lang Scholarship — (September 2020 - February 2021)"]
+      descBullets: [
+    ]
     }
   ]
 };
@@ -298,9 +296,21 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have achieved!",
 
   achievementsCards: [
+    {
+      title: "Scholarships and Awards",
+      subtitle: "Accumulated over $15,000 in scholarships and awards",
+      image: require("./assets/images/scholarship.png"),
+      imageAlt: "Scholarship and Awards",
+      footerLink: [
+        {
+          name: "View Scholarships and Awards",
+          url: "https://www.linkedin.com/in/jinkilee/details/honors/"
+        }
+      ]
+    },
     {
       title: "AZ 900",
       subtitle: "Microsoft Azure Fundamentals",
@@ -308,7 +318,7 @@ const achievementSection = {
       imageAlt: "AZ 900",
       footerLink: [
         {
-          name: "Scheduled to write in Dec 2023",
+          name: "View Certificate",
           url: ""
         }
       ]
@@ -320,7 +330,7 @@ const achievementSection = {
       imageAlt: "Power Engineer - Special Boiler Operator",
       footerLink: [
         {
-          name: "Certification",
+          name: "View Certification",
           url: "https://www.absa.ca/directories/alberta-certi%EF%AC%81ed-power-engineers-directory/"
         }
       ]
@@ -410,20 +420,20 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Project Portfolio",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "A dedicated website to host all my projects, apps, vlogs, project demos, and other digital work! 😀"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Project Portfolio",
+      subtitle: "More details in the link below",
+      slides_url: "https://project.jinkilee.ca/Projects",
+      event_url: "https://project.jinkilee.ca/Projects"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
