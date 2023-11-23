@@ -46,25 +46,25 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Who am I?",
   subTitle:
-    "A creative problem solver with a passion for designing, planning, and developing innovative solutions. I mostly enjoy working on the front-end, but I am always open to learning new things.",
+    "A creative problem solver with a passion for designing, planning, and developing innovative solutions. I mostly enjoy working on the front-end, but I am always open to learning new things",
   skills: [
     emoji(
-      "⚡ Highly motivated and passionate about learning new technologies. I always look for ways to integrate and share new technologies with others."
+      "⚡ Highly motivated and passionate about learning new technologies. I always look for ways to integrate and share new technologies with others"
     ),
     emoji(
       "⚡ Very detail-oriented and organized. I love to plan and design to create the best user experience"
     ),
     emoji(
-      "⚡ Enjoy client to client interaction and working in a team environment. I am a great communicator and love to collaborate with others."
+      "⚡ Enjoy client to client interaction and working in a team environment. I am a great communicator and love to collaborate with others"
     ),
     emoji(
-      "🌟 I love to meet new people, organize hangouts, play sports and do other physical activities! (Golf, Ski, Volleyball, Boardball, Camping, Backpacking and Body Building)."
+      "🌟 I love to meet new people, organize hangouts, play sports and do other physical activities! (Golf, Ski, Volleyball, Boardball, Camping, Backpacking and Body Building)"
     ),
     emoji(
-      "🌟 I am a big dog person! I have two Australian Labradoodles, Dooly and Lulu."
+      "🌟 I am a big dog person! I have two Australian Labradoodles, Dooly and Lulu"
     ),
     emoji(
-      "🌟 I am a very outgoing, creative, energetic and active person. I love to brighten up the room, share my honest opinions and make sure everyone is comfortable."
+      "🌟 I am a very outgoing, creative, energetic and active person. I love to brighten up the room, share my honest opinions and make sure everyone is comfortable"
     )
   ],
 
@@ -254,8 +254,8 @@ const bigProjects = {
         "Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, analysis, and testing, to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
       footerLink: [
         {
-          name: "Video Demo - Coming Soon",
-          url: ""
+          name: "Visit Portfolio",
+          url: "https://project.jinkilee.ca/ENMAX"
         }
         //  you can add extra buttons here.
       ]
@@ -433,7 +433,7 @@ const talkSection = {
       event_url: "https://project.jinkilee.ca/Projects"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
