@@ -207,20 +207,21 @@ const workExperiences = {
       role: "Capstone Project Developer",
       company: "ENMAX Corporation",
       companylogo: require("./assets/images/ENMAX.jfif"),
-      date: "September 2023 – Present",
+      date: "September 2023 – December 2023",
       desc: "Team Lead",
       descBullets: [
         "⭐ Spearheading the concept of collaborating and partnering ENMAX with post-secondary schools to explore capstone project opportunities, becoming the trailblazer in delivering innovative projects, and setting a precedent for successful cooperation",
         "📝 Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, user testing, Figma wireframes and mood boards to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
+        "🏅Received Work Integrated Learning Scholarship, valued at $2000 per recipient",
         "💭 Promoted organizational change management and introducing new KPIs to increase employee engagement and recognition"
       ]
     },
     {
-      role: "Business Analyst",
+      role: "Company Website",
       company: "QP",
       companylogo: require("./assets/images/qp.png"),
       date: "May 2017 – Present",
-      desc: "Family Owned Business",
+      desc: "Solutions Specialist",
       descBullets: [
         "📖 Gained insights into business operations and processes within a family-owned company, initially starting as a front counter associate",
         "📜 Demonstrated and applied workplace safety, subsequently achieving certification to operate boilers in compliance with Alberta Power Engineers Regulation",
@@ -267,17 +268,17 @@ const bigProjects = {
         "Gathered business and UX requirements from the client and stakeholders, created a Figma wireframe and prototype, and developed a new Telecom Choice page for enmax.com",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Page",
           url: "https://www.enmax.com/generation-wires/transmission-and-distribution/telecom-choice"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/qp2.png"),
-      projectName: "Company Website and Application Support",
+      image: require("./assets/images/projectPortfolio.png"),
+      projectName: "Project Portfolio",
       projectDesc:
-        "Designed and deployed a company website using React.js. Integrated various applications, technologies, and services to enhance digital experience",
+        "A dedicated website to host all my projects, apps, vlogs, project demos, and other digital work",
       footerLink: [
         {
           name: "Visit Website",
