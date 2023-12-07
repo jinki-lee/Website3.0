@@ -246,30 +246,34 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some of the projects and companies I have contributed to",
+  subtitle: "Some of the projects and companies I have made",
   projects: [
     {
-      image: require("./assets/images/ENX_Logo_RED2.png"),
+      image: require("./assets/images/IT_RecognitionPortal.png"),
       projectName: "IT Recognition Portal",
       projectDesc:
-        "Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, analysis, and testing, to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
+        "The ENMAX IT Recognition Portal is a web application that allows ENMAX employees to recognize each other for their hard work and dedication. The application is built using ASP.NET Core Web App",
       footerLink: [
         {
           name: "Visit Portfolio",
           url: "https://project.jinkilee.ca/ENMAX"
+        },
+        {
+          name: "View Presentation",
+          url: "https://sway.office.com/q5o93xDSRl1xy7I7?ref=Link"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/ENX_Logo_RED2.png"),
-      projectName: "Telecom Choice Page",
+      image: require("./assets/images/journalApp.png"),
+      projectName: "Journal App",
       projectDesc:
-        "Gathered business and UX requirements from the client and stakeholders, created a Figma wireframe and prototype, and developed a new Telecom Choice page for enmax.com",
+        "Look back on your journal entries and the songs you chose. Rediscover how music framed your emotions and experiences, offering a new perspective on your personal journey.",
       footerLink: [
         {
           name: "Visit Page",
-          url: "https://www.enmax.com/generation-wires/transmission-and-distribution/telecom-choice"
+          url: "https://project.jinkilee.ca/Journal"
         }
         //  you can add extra buttons here.
       ]
@@ -282,7 +286,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.qpcleaners.ca/"
+          url: "https://project.jinkilee.ca/Projects"
         }
         //  you can add extra buttons here.
       ]
