@@ -125,7 +125,7 @@ const educationInfo = {
       schoolName: "Southern Alberta Institute of Technology",
       logo: require("./assets/images/sait.png"),
       subHeader: "Diploma in Information Technology - Software Development",
-      duration: "May 2022 - April 2024*",
+      duration: "May 2022 - December 2024*",
       desc: "GPA: 3.80 / 4.00",
       descBullets: [
         "Completed 8-month Co-Op Work Term — (January - August 2023)",
@@ -190,45 +190,47 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Digital Experience",
+      role: "Junior Software Specialist",
       company: "ENMAX Corporation",
       companylogo: require("./assets/images/ENMAX.jfif"),
-      date: "January 2023 – August 2023",
-      desc: "Co-Op Student",
+      date: "January 2024 – Present",
+      desc: "Digital Experience",
       descBullets: [
-        "⭐Pioneered ENMAX's co-op program, infusing youthful energy and cutting-edge practices",
-        "📝 Documented enmax.com 2023 updates in release notes and utilized Microsoft Sway to create captivating releases",
-        "🎟️ Managed Service Now daily to track tickets and requests, and delegated tasks to appropriate Microsoft Azure DevOps board team members for timely resolution",
-        "💭 Proposed and executed novel UX/UI enhancements on enmax.com and enmax.next",
-        "💭 Proposed import/export tool for Azure DevOps and integrated generative AI tools for efficient software development"
+        "Manage system change processes in an n-tier application environment",
+        "Contribute to the continuous improvement of ENMAX internal and external web applications by participating in the planning, design, and development of web-based solutions",
+        "Ensure complete and accurate backups of the SharePoint Farms happen on a regular schedule",
+        "Manage the plans, schedules, and accuracy of all software environments within the Digital Experience portfolio",
+        "Contribute to detailed project plans to define project scope, cost, and timeline",
+        "Anticipate, identify, troubleshoot, and resolve application defects and deficiencies",
+        "Participate in Change Advisory Board (CAB) meetings to discuss release scope"
+
       ]
     },
     {
-      role: "Capstone Project Developer",
+      role: "Project Management, Team Lead",
       company: "ENMAX Corporation",
       companylogo: require("./assets/images/ENMAX.jfif"),
       date: "September 2023 – December 2023",
-      desc: "Team Lead",
+      desc: "Digital Experience",
       descBullets: [
-        "⭐ Spearheading the concept of collaborating and partnering ENMAX with post-secondary schools to explore capstone project opportunities, becoming the trailblazer in delivering innovative projects, and setting a precedent for successful cooperation",
-        "📝 Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, user testing, Figma wireframes and mood boards to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
-        "🏅Received Work Integrated Learning Scholarship, valued at $2000 per recipient",
-        "💭 Promoted organizational change management and introducing new KPIs to increase employee engagement and recognition"
+        "Spearheading the concept of collaborating and partnering ENMAX with post-secondary schools to explore capstone project opportunities, becoming the trailblazer in delivering innovative projects, and setting a precedent for successful cooperation",
+        "Led the entire design process, starting from gathering initial business requirements, conducting comprehensive user research, user testing, Figma wireframes and mood boards to overseeing software development and finalizing rollout/re-launch planning for the IT Recognition Portal",
+        "Received Work Integrated Learning Scholarship, valued at $2000 per recipient",
+        "Promoted organizational change management and introducing new KPIs to increase employee engagement and recognition"
       ]
     },
     {
-      role: "Company Website",
-      company: "QP",
-      companylogo: require("./assets/images/qp.png"),
-      date: "May 2017 – Present",
-      desc: "Solutions Specialist",
+      role: "Co-Op Student",
+      company: "ENMAX Corporation",
+      companylogo: require("./assets/images/ENMAX.jfif"),
+      date: "January 2023 – August 2023",
+      desc: "Digital Experience",
       descBullets: [
-        "📖 Gained insights into business operations and processes within a family-owned company, initially starting as a front counter associate",
-        "📜 Demonstrated and applied workplace safety, subsequently achieving certification to operate boilers in compliance with Alberta Power Engineers Regulation",
-        "📝 Acquired exposure to financial accounting, inventory management, decision-making, and tax planning and compliance for small businesses",
-        "🎨 Designed and deployed a company website using React.js",
-        "📊 Leveraged Excel workbooks with macros for automating and visualizing budget data, expenses, sales figures, and employee timesheets",
-        "💻 Integrated various applications, technologies, and services to enhance digital experience"
+        "Pioneered ENMAX's co-op program, infusing youthful energy and cutting-edge practices",
+        "Documented enmax.com 2023 updates in release notes and utilized Microsoft Sway to create captivating releases",
+        "Managed Service Now daily to track tickets and requests, and delegated tasks to appropriate Microsoft Azure DevOps board team members for timely resolution",
+        "Proposed and executed novel UX/UI enhancements on enmax.com and enmax.next",
+        "Proposed import/export tool for Azure DevOps and integrated generative AI tools for efficient software development"
       ]
     }
   ]
@@ -252,7 +254,7 @@ const bigProjects = {
       image: require("./assets/images/IT_RecognitionPortal.png"),
       projectName: "IT Recognition Portal",
       projectDesc:
-        "The ENMAX IT Recognition Portal is a web application that allows ENMAX employees to recognize each other for their hard work and dedication. The application is built using ASP.NET Core Web App",
+        "The ENMAX IT Recognition Portal is a web application that allows ENMAX employees to recognize each other for their hard work and dedication. The application is built using ASP.NET Core 6.0",
       footerLink: [
         {
           name: "Visit Portfolio",
@@ -306,7 +308,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Scholarships and Awards",
-      subtitle: "Accumulated over $15,000 in scholarships and awards",
+      subtitle: "Accumulated over $16,000 in scholarships and awards",
       image: require("./assets/images/scholarship.png"),
       imageAlt: "Scholarship and Awards",
       footerLink: [
@@ -352,6 +354,18 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to visualize and show others what I have learnt and experienced. Videos were created and edited using Adobe Premiere Pro.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "https://sway.office.com/cUCSN8ErMVeOv633?ref=Link",
+      title: "Peru - Crawl Outta Love",
+      description:
+        "Join my Peru backpacking adventure through Arequipa, Lima, Cusco, Machu Picchu, and the Amazon forest, a journey filled with diverse landscapes and unforgettable experiences."
+    },
+    {
+      url: "https://sway.office.com/cUCSN8ErMVeOv633?ref=Link",
+      title: "Peru - Step Out",
+      description:
+        "Follow my solo Peru adventure with Contiki, a journey of self-discovery and celebration in a land of rich culture and stunning scenery."
+    },
     {
       url: "https://sway.office.com/cUCSN8ErMVeOv633?ref=Link",
       title: "ENMAX | Digital Experience",
